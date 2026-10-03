@@ -1,0 +1,16 @@
+# Python and test leftovers
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Your own sound lists and the trackers built from them.
+# The example list and the test files are kept; they live in examples/ and tests/.
+/*.csv
+/*.txt
+!/requirements.txt
+*.xlsx
+
+# Lock files Excel creates while a tracker is open
+~$*
